@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph objective="5" IDExperiment="2" typeExperiment="0">
+    <experimentSeed>12345678</experimentSeed>
+    <nameGraph>C:\Users\mauricio.aldenor\Maurício\UFPE\Dissertação\Bases
+        de Microarray\final\Software-2016-05-17\dist\Suporte02\mushroom-pn2.xml</nameGraph>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="0" typeNode="0" xsi:type="data-set">
+        <positionNode positionX="105" positionY="100"/>
+        <Description>
+            <subType>0</subType>
+            <name>mushroom-pn</name>
+            <path>/data/</path>
+            <jarName>mushroom-pn.jar</jarName>
+        </Description>
+        <Files>
+            <string xsi:type="java:java.lang.String">mushroom-pn.dat,mushroom-pn.dat</string>
+        </Files>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="1" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="343" positionY="102"/>
+        <Description>
+            <subType>5</subType>
+            <name>SDMap-SD</name>
+            <path>file:./algorithm/methods/</path>
+            <jarName>SDMap.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>SDMap for Subgroup Discovery</AlgorithmType>
+            <numParameters>4</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>4</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>MinimumSupport</descriptions>
+            <descriptions>MinimumConfidence</descriptions>
+            <descriptions>RulesReturn</descriptions>
+            <descriptions>algorithm</descriptions>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.0</string>
+                <string xsi:type="java:java.lang.String">1.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.0</string>
+                <string xsi:type="java:java.lang.String">1.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">SD-Map</string>
+            </domain>
+            <defaultValue>0.1</defaultValue>
+            <defaultValue>0.8</defaultValue>
+            <defaultValue>10</defaultValue>
+            <defaultValue>SD-Map</defaultValue>
+            <value>0.2</value>
+            <value>0.8</value>
+            <value>10</value>
+            <value>SD-Map</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+        </Parameters>
+    </Node>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>1</destinyNode>
+    </Edge>
+</Graph>

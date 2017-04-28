@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph objective="5" IDExperiment="4" typeExperiment="0">
+    <experimentSeed>12345678</experimentSeed>
+    <nameGraph>C:\Users\mauricio.aldenor\Maurício\UFPE\Dissertação\Bases
+        de Microarray\final\Software-2016-05-17\dist\Confianca10\car-pn2.xml</nameGraph>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="3" typeNode="0" xsi:type="data-set">
+        <positionNode positionX="56" positionY="81"/>
+        <Description>
+            <subType>0</subType>
+            <name>car-pn</name>
+            <path>/data/</path>
+            <jarName>car-pn.jar</jarName>
+        </Description>
+        <Files>
+            <string xsi:type="java:java.lang.String">car-pn.dat,car-pn.dat</string>
+        </Files>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="1" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="230" positionY="78"/>
+        <Description>
+            <subType>5</subType>
+            <name>SDMap-SD</name>
+            <path>file:./algorithm/methods/</path>
+            <jarName>SDMap.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>SDMap for Subgroup Discovery</AlgorithmType>
+            <numParameters>4</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>4</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>MinimumSupport</descriptions>
+            <descriptions>MinimumConfidence</descriptions>
+            <descriptions>RulesReturn</descriptions>
+            <descriptions>algorithm</descriptions>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.0</string>
+                <string xsi:type="java:java.lang.String">1.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0.0</string>
+                <string xsi:type="java:java.lang.String">1.0</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">100</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">SD-Map</string>
+            </domain>
+            <defaultValue>0.1</defaultValue>
+            <defaultValue>0.8</defaultValue>
+            <defaultValue>10</defaultValue>
+            <defaultValue>SD-Map</defaultValue>
+            <value>0.1</value>
+            <value>1.0</value>
+            <value>10</value>
+            <value>SD-Map</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <trainingOutputs>../results/SDMap-SD.car-pn/result1.tra</trainingOutputs>
+            <testOutputs>../results/SDMap-SD.car-pn/result1.tst</testOutputs>
+            <trainingValues>../datasets/car-pn/car-pn.dat</trainingValues>
+            <testValues>../datasets/car-pn/car-pn.dat</testValues>
+            <configurations>/SDMap-SD/car-pn/config1.txt</configurations>
+            <additionalOutputs xsi:type="java:java.util.Vector">
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/SDMap-SD.car-pn/result1e0.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/SDMap-SD.car-pn/result1e1.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/SDMap-SD.car-pn/result1e2.txt&quot; </string>
+                <string
+                    xsi:type="java:java.lang.String">&quot;../results/SDMap-SD.car-pn/result1e3.txt&quot; </string>
+            </additionalOutputs>
+        </Parameters>
+    </Node>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>1</destinyNode>
+    </Edge>
+</Graph>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph objective="5" IDExperiment="2" typeExperiment="0">
+    <experimentSeed>12345678</experimentSeed>
+    <nameGraph>C:\Users\mauricio.aldenor\Maurício\UFPE\Dissertação\Bases
+        de Microarray\final\Software-2016-05-17\dist\Suporte10\bridges-version2-pn.xml</nameGraph>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="0" typeNode="0" xsi:type="data-set">
+        <positionNode positionX="91" positionY="104"/>
+        <Description>
+            <subType>0</subType>
+            <name>bridges-version2-pn</name>
+            <path>/data/</path>
+            <jarName>bridges-version2-pn.jar</jarName>
+        </Description>
+        <Files>
+            <string xsi:type="java:java.lang.String">bridges-version2-pn.dat,bridges-version2-pn.dat</string>
+        </Files>
+    </Node>
+    <Node xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        IDNode="1" typeNode="1" xsi:type="algorithm">
+        <positionNode positionX="307" positionY="125"/>
+        <Description>
+            <subType>5</subType>
+            <name>Apriori-SD</name>
+            <path>file:./algorithm/methods/</path>
+            <jarName>aprioriSD.jar</jarName>
+        </Description>
+        <Parameters>
+            <AlgorithmType>Apriori Algorithm for Subgroup Discovery</AlgorithmType>
+            <numParameters>4</numParameters>
+            <Probabilistic>false</Probabilistic>
+            <numOutputs>1</numOutputs>
+            <numInputs>0</numInputs>
+            <numExecutions>1</numExecutions>
+            <descriptions>MinSupport</descriptions>
+            <descriptions>MinConfidence</descriptions>
+            <descriptions>Number_of_Rules</descriptions>
+            <descriptions>Postpruning_type</descriptions>
+            <parameterType>real</parameterType>
+            <parameterType>real</parameterType>
+            <parameterType>integer</parameterType>
+            <parameterType>list</parameterType>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">0</string>
+                <string xsi:type="java:java.lang.String">1</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">1</string>
+                <string xsi:type="java:java.lang.String">50</string>
+            </domain>
+            <domain>
+                <string xsi:type="java:java.lang.String">SELECT_N_RULES</string>
+                <string xsi:type="java:java.lang.String">SELECT_N_RULES_PER_CLASS</string>
+            </domain>
+            <defaultValue>0.03</defaultValue>
+            <defaultValue>0.9</defaultValue>
+            <defaultValue>5</defaultValue>
+            <defaultValue>SELECT_N_RULES_PER_CLASS</defaultValue>
+            <value>1.0</value>
+            <value>0.8</value>
+            <value>5</value>
+            <value>SELECT_N_RULES_PER_CLASS</value>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+            <hidden>0</hidden>
+        </Parameters>
+    </Node>
+    <Edge>
+        <originNode>0</originNode>
+        <destinyNode>1</destinyNode>
+    </Edge>
+</Graph>

@@ -1,0 +1,26 @@
+Sup 0.1 Conf 0.2
+> caren audiology-pn.CSV	  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovraudiology-pn
+> caren breast-cancer-pn.CSV  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrbreast-cancer-pn
+> caren bridges-version2-pn.CSV  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrbridges-version2-pn
+> caren car-pn.CSV  				0.1  0.2  -Att  -CS  -s,  -Hy  -ovrcar-pn 
+> caren kr-vs-kp-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrkr-vs-kp-pn
+> caren lung-cancer.CSV		  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrlung-cancer
+> caren molecular-biology-promoters-pn.CSV  	0.1  0.2  -Att  -CS  -s,  -Hy  -ovrmolecular-biology-promoters-pn
+> caren monks-problems-1-train-pn.CSV  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrmonks-problems-1-train-pn 
+> caren mushroom-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrmushroom-pn
+> caren nursery-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrnursery-pn
+> caren postoperative-patient-data-pn.CSV  	0.1  0.2  -Att  -CS  -s,  -Hy  -ovrpostoperative-patient-data-pn
+> caren primary-tumor-pn.CSV	  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrprimary-tumor-pn
+> caren shuttle-landing-control-pn.CSV 		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrshuttle-landing-control-pn
+> caren solar-flare-2-pn.CSV	  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrsolar-flare-2-pn
+> caren soybean-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrsoybean-pn
+> caren spect-test-pn.CSV	  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrspect-test-pn
+> caren splice-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrsplice-pn
+> caren tic-tac-toe-pn.CSV	  		0.1  0.2  -Att  -CS  -s,  -Hy  -ovrtic-tac-toe-pn
+> caren trains-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrtrains-pn
+> caren vote-pn.CSV	  			0.1  0.2  -Att  -CS  -s,  -Hy  -ovrvote-pn
+
+
+
+
+

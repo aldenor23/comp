@@ -1,0 +1,12 @@
+Sup 0.1 Conf 0.6
+> caren alon-pn.CSV  		0.1  0.6  -Att  -CS  -s,  -Hy  -ovralon-pn 
+> caren burczynski-pn.CSV  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrburczynski-pn 
+> caren chiaretti-pn.CSV  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrchiaretti-pn 
+> caren chin-pn.CSV	  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrchin-pn
+> caren christensen-pn.CSV  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrchristensen-pn
+> caren gravier-pn.CSV  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrgravier-pn
+> caren nakayama-pn.CSV  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrnakayama-pn
+> caren sorlie-pn.CSV	  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrsorlie-pn
+> caren tian-pn.CSV	  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovrtian-pn
+> caren yeoh-pn.CSV	  	0.1  0.6  -Att  -CS  -s,  -Hy  -ovryeoh-pn
+
